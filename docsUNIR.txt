@@ -1,0 +1,18 @@
+Un servidor de aplicación es conocido como un programa de servidor en una red distribuida que proporciona el entorno de ejecución para un programa de aplicación.  Específicamente, el servidor de aplicaciones es el componente de tiempo de ejecución principal en todas las configuraciones y es donde la aplicación se ejecuta realmente. El servidor de aplicaciones se ve como parte de una aplicación de tres niveles, la cual consta de un servidor grafico de interfaz de usuario (GUI), un servidor de aplicaciones, el cual es la lógica empresarial, y un servidor de bases de datos y transacciones. El servidor de aplicaciones colabora con el servidor web para ofrecer una respuesta dinámica y personalizada a una solicitud de cliente. 
+
+Existen diferentes tipos de servidores de aplicaciones, cada  uno con diferentes características dependiendo para que será utilizado, algunos de los más utilizados son, BEA WebLogic, IBM WebSphere, Sun-Netscape IPlanet, Sun One, Oracle IAS, Borland AppServer, HP Bluestone. Los servidores que se estarán utilizando en esta ocasión son PowerEdge T150 de DELL y Nginx.
+
+En esta ocasión se estará trabajando con un pequeño negocio de ventas, para esto hay que implementar el servidor de manera que conforme valla creciendo el negocio aun se pueda manejar de mejor manera con un solo servidor, es decir, si se crean más sucursales aún se puedan controlar desde un punto, incluyendo las ventas en línea. Para esto último se implementara  servidor web.
+SISTEMAS OPERATIVOS DE REDES Y NFS
+El nombre de un archivo depende del lugar desde el cual se tiene acceso a él y de la configuración del sistema de archivos. Puesto que cada una de las estaciones de trabajo operan en forma relativamente independiente del resto, no existe garantía alguna de que todas presenten la misma jerárquica de directorios a sus programas.
+
+El sistema operativo a utilizar en este tipo de ambiente debe controlar las estaciones de trabajo en lo individual, a los servidores de archivo y también debe encargarse de la comunicación entre ellos.
+
+En una situación como esta, en la que cada máquina tiene un alto grado de autonomía y existen pocos requisitos a lo largo de todo el sistema, las personas se refieren a ella como un sistema operativo de red.
+
+Uno de los mejores sistemas operativos de red es el de Sun Microsystems, implementando su sistema de archivos Network File System, conocido en general como NFS.
+
+Sun Microsystems diseñó e implantó NFS en un principio para su uso en estaciones de trabajo con base en UNIX. Ahora lo soportan otros fabricantes, tanto para UNIX como para otros sistemas operativos (como Windows y Linux). NFS soporta sistemas heterogéneos. Ni siquiera se pide que las máquinas utilicen el mismo hardware.
+
+Tres aspectos interesantes de NFS son: la arquitectura, el protocolo y la implantación.
+
